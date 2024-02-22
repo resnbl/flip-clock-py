@@ -33,6 +33,12 @@ every 6 seconds (instead of every 60 seconds as usual).
 
 ## The Code
 
+The following was developed and tested with:
+
+  - Python 3.10 and 3.12
+  - PySimpleGui 4.x and 5.0.2 (no changes needed when I upgraded)
+  - Pillow 10.2.0
+
 ### flip_digits.py *and* other_images.py
 
 I used the Python Pillow (PIL) library to programatically generate the images in `.png`

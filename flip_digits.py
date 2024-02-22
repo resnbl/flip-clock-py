@@ -20,10 +20,10 @@ DIGIT_BG = "#696969"                        # digits background (dim gray?)
 DIGIT_FG = "white"                          # digits text color
 DIGIT_SEP = "black"                         # "fold" line
 FOLD_WIDTH = 4                              # fold line width
-# OUT_PATH = 'data/'                          # output folder
-# OUT_FORM = 'rgb565'                         # rgb565 | png | bmp | ...
-OUT_PATH = 'pngs/'                          # output folder
-OUT_FORM = 'png'                            # rgb565 | png | bmp | ...
+OUT_PATH = 'data/'                          # output folder
+OUT_FORM = 'rgb565'                         # rgb565 | png | bmp | ...
+# OUT_PATH = 'pngs/'                          # output folder
+# OUT_FORM = 'png'                            # rgb565 | png | bmp | ...
 BLANK_FLAG = 'x'                            # safe replacement for ' ' in filenames
 
 
