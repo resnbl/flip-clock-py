@@ -1,5 +1,5 @@
 """
-Create a few static images so the flip-clock looks like a LilyGo T-Display S3
+Create a few static images so the flip_clock looks like a LilyGo T-Display S3
 """
 from PIL import Image, ImageDraw, ImageFont
 import pathlib

@@ -3,7 +3,7 @@ Generate images of digits for use in a "flip clock".
 This includes whole digit images as well as combined "previous" digit" and
 "new digit" to show a limited animation.
 Output is in .png | .jpg | .bmp format for use in desktop programs
-or in a custom RGB565 format for use on a ESP32 micro-controller.
+or in a custom RGB565 format for use with a particular TFT display.
 """
 import PIL
 from PIL import Image, ImageDraw, ImageFont
@@ -172,9 +172,7 @@ def make_images(text='01'):
 
 
 # main program:
-# skip re-computing if values are known
-if font_size == 0 or digit_w == 0 or digit_h == 0:
-    font_size, digit_w, digit_h = compute_sizes()
+font_size, digit_w, digit_h = compute_sizes()
 
 print(f'Font size: {font_size}, digit w, h: {digit_w}, {digit_h}')
 
