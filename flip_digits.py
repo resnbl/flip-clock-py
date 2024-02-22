@@ -33,7 +33,7 @@ digit_w = 0
 digit_h = 0
 
 
-def compute_sizes() -> (int, int, int):
+def compute_sizes() -> tuple[int, int, int]:
     """ Calculate largest font size that will fit on display, and the width and height
         of a resulting single digit image."""
     max_text = "12:34"
