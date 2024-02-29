@@ -84,5 +84,5 @@ and fed directly to the display code.
 
 Of course the microcontroller code is written in C++ instead of Python,
 but I was able to use the classes and general processing techniques from here to
-lessen the effort in getting the code to run on the device. This code will
-eventually also be uploaded to GitHub in due time...
+lessen the effort in getting the code to run on the device. This code is now available
+on GitHub as [YAFC: Yet Another Flip Clock](https://github.com/resnbl/YAFC).
